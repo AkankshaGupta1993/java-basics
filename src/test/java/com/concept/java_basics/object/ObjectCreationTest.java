@@ -11,7 +11,7 @@ public class ObjectCreationTest {
 
 	@Test
 	public void testBankObjectCreation () {
-		String bankName = "Generic Bank";
+		String bankName = "Bank";
 		Bank bank = new Bank(bankName);
 		assertEquals(bankName, bank.getName());
 	}
