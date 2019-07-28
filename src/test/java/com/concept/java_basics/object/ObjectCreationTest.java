@@ -16,4 +16,11 @@ public class ObjectCreationTest {
 		assertEquals(bankName, bank.getName());
 	}
 	
+	@Test
+	public void testHdfcBankObjectCreation () {
+		String bankName = "HDFC";
+		HdfcBank hdfcBank = new HdfcBank();
+		assertEquals(bankName, hdfcBank.getName());
+	}
+	
 }
